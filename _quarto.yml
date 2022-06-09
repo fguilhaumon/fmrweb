@@ -21,7 +21,7 @@ website:
   navbar:
     search : true
     background: primary
-    logo: image/Logo.ai
+    logo: image/coraux.jpg
     href: index.qmd
     
     left:
@@ -29,15 +29,15 @@ website:
       - icon: apple
         href: https://en.ird.fr/node/10866
       - icon: archive
-        
         href: https://quarto.org/docs/websites/
           
       - href: index.qmd
         text: Home
-      - about.qmd
+      
+      - href: about.qmd
       
       - href: gallery/listingpage.qmd
-        text : Listingpage
+        text: Listingpage
 
 format:
   html:
