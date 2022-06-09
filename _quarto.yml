@@ -21,9 +21,12 @@ website:
   navbar:
     search : true
     background: primary
+    logo: image/Logo.ai
+    href: index.qmd
     
     left:
-      - icon: truck
+      
+      - icon: apple
         href: https://en.ird.fr/node/10866
       - icon: archive
         

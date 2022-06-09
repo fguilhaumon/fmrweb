@@ -8,8 +8,9 @@ categories : "ile blanche"
 
 # Colonie 1
 
+<iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/G0Eog">
 
-<iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/G0Eog"></iframe>
+</iframe>
 
 ```{r}
 library(leaflet)
