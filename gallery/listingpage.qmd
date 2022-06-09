@@ -1,0 +1,13 @@
+---
+title: "Listing Example"
+listing:
+  categories: true
+  type: default
+  sort-ui: true
+  filter-ui: true
+  #template: gallery.qmd
+  #contents:
+  #  - gallery.yml
+  #sort-ui: true
+  #filter-ui: true
+---

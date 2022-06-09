@@ -1,0 +1,21 @@
+---
+title : "page2"
+author : "Marie"
+date : 02/05/2021
+categories: "aeroport"
+---
+
+# Colonie 2
+
+
+<iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/G0Eog"></iframe>
+<img src="coraux.jpg" alt="Coraux">
+
+```{r}
+library(leaflet)
+
+m <- leaflet() %>%
+    addTiles() %>%  # Add default OpenStreetMap map tiles
+    addMarkers(lng=45.27948, lat=-12.82449, popup="The birthplace of R")
+m  # Print the map
+```

@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prototype",
+    "section": "",
+    "text": "Prototype de galleries coralliennes"
+  },
+  {
+    "objectID": "gallery/page.html",
+    "href": "gallery/page.html",
+    "title": "Modèle 3D",
+    "section": "",
+    "text": "Code\nlibrary(leaflet)\n\nm <- leaflet() %>%\n    addTiles() %>%  # Add default OpenStreetMap map tiles\n    addMarkers(lng=45.17146, lat=-12.71570, popup=\"The birthplace of R\")\nm  # Print the map"
+  },
+  {
+    "objectID": "gallery/page2.html",
+    "href": "gallery/page2.html",
+    "title": "page2",
+    "section": "",
+    "text": "Code\nlibrary(leaflet)\n\nm <- leaflet() %>%\n    addTiles() %>%  # Add default OpenStreetMap map tiles\n    addMarkers(lng=45.27948, lat=-12.82449, popup=\"The birthplace of R\")\nm  # Print the map"
+  },
+  {
+    "objectID": "gallery/listingpage.html",
+    "href": "gallery/listingpage.html",
+    "title": "Listing Example",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\nile blanche\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2022\n\n\nJoseph\n\n\n\n\n\n\n\n\n\n\n\n\n\n\naeroport\n\n\n\n\n\n\n\n\n\n\n\nFeb 5, 2021\n\n\nMarie\n\n\n\n\n\n\nNo matching items"
+  }
+]

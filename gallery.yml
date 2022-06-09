@@ -1,0 +1,13 @@
+- category: aeroports
+  description : |
+    Un corail déposé sur le versant d'une colline maritime
+  tiles: 
+    - title : Corail
+      href: page.qmd
+      
+- category: ile blanche
+  description : |
+    Deuxième phrase descriptive
+  tiles: 
+    - title : Corail
+      href: page.qmd

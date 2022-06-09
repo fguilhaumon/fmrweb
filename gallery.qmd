@@ -1,0 +1,14 @@
+```{=html}
+<!--<ul class="list">
+<% for (const item of items) { %>
+<h2><%- item.category %></h2>
+<p><%- item.description %></p>
+<% } %>
+<% for (const tile of items.tiles) { %>
+  <li <%= metadataAttrs(item) %>>
+    <a href="<%- tile.href %>" class="listing-title"><%= item.title %></a><br/>
+    
+  </li>
+<% } %>
+</ul>
+```

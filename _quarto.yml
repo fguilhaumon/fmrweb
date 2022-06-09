@@ -1,0 +1,51 @@
+project:
+  type: website
+
+website:
+  background:
+  sidebar:
+      tools:
+       
+        - icon: github
+          menu:
+            - text: Source Code
+              url:  https://code.com
+            - text: Report a Bug
+              url:  https://bugs.com
+  title: "site"
+  
+  page-footer: "Copyright 2022, Moreau Matéo" 
+  search:
+    location: navbar
+    type: textbox
+  navbar:
+    search : true
+    background: primary
+    
+    left:
+      - icon: truck
+        href: https://en.ird.fr/node/10866
+      - icon: archive
+        
+        href: https://quarto.org/docs/websites/
+          
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      
+      - href: gallery/listingpage.qmd
+        text : Listingpage
+
+format:
+  html:
+    code-fold: true
+    
+    theme:
+      light: flatly
+      dark: darkly
+    
+    css: styles.css
+    toc: true
+
+editor: visual
+
