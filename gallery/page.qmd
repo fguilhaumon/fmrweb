@@ -1,14 +1,16 @@
 ---
 title : "Modele 3D"
-subtitle: ""
+subtitle: "Modèle de coraux 3D"
+image: cover/cover.jpg
 author: "Joseph"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt nisi sapien, id ornare ligula fringilla at. In eget lacus eros. In quis laoreet magna. Duis suscipit mollis porta. In hac habitasse platea dictumst. Morbi in tempor orci. Fusce augue purus, gravida et felis quis, tincidunt finibus erat."
 date : 05/06/2022
 categories : "ile blanche"
+reading-time: true
+
 ---
 
 # Colonie 1
-
-
 
 <iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/G0Eog">
 

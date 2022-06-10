@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>site - Listing Example</title>
+<title>FMRWEB - Listing Example</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,7 +19,6 @@ ul.task-list{list-style: none;}
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
@@ -67,9 +66,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -86,15 +85,15 @@ ul.task-list{list-style: none;}
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="../index.html">
-    <img src="../image/coraux.jpg" alt="">
-    <span class="navbar-title">site</span>
+    <img src="../image/Logo.svg" alt="">
+    <span class="navbar-title">FMRWEB</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -115,10 +114,10 @@ ul.task-list{list-style: none;}
     <a class="nav-link" href="../index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html">About</a>
+    <a class="nav-link active" href="../gallery/listingpage.html" aria-current="page">Listingpage</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../gallery/listingpage.html" aria-current="page">Listingpage</a>
+    <a class="nav-link" href="../about.html">About</a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -128,45 +127,21 @@ ul.task-list{list-style: none;}
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Listing Example</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-        <div class="sidebar-tools-main">
-    <a href="" title="" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-github"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://code.com">
-          Source Code
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://bugs.com">
-          Report a Bug
-          </a>
-        </li>
-    </ul>
-</div>
-</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aeroport">aeroport <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ile blanche">ile blanche <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="aeroport">aeroport <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ile blanche">ile blanche <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Listing Example</h1>
+<h1 class="title">Listing Example</h1>
+<p class="subtitle lead">Liste</p>
 </div>
 
 
@@ -184,7 +159,7 @@ ul.task-list{list-style: none;}
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -210,70 +185,123 @@ ul.task-list{list-style: none;}
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ile blanche" data-listing-date-sort="1651780800000" data-listing-file-modified-sort="1654775924572" data-listing-reading-time-sort="0.18">
-<div class="body">
-<a href="../gallery/page.html">
-<h3 class="no-anchor listing-title">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="ile blanche" data-listing-date-sort="1651780800000" data-listing-file-modified-sort="1654843007026" data-listing-reading-time-sort="0.18">
+<a href="../gallery/page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/cover/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Modele 3D
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('ile blanche'); return false;">
 ile blanche
 </div>
 </div>
-<a href="../gallery/page.html">
-<div class="listing-description">
-
+<div class="card-text listing-description">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt nisi sapien, id ornare ligula fringilla at. In eget lacus eros. In quis laoreet magna. Duis…
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="../gallery/page.html">
-<div class="listing-date">
-May 6, 2022
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Joseph
 </div>
+<div class="listing-date">
+May 6, 2022
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="aeroport" data-listing-date-sort="1612468800000" data-listing-file-modified-sort="1654775817305" data-listing-reading-time-sort="0.19">
-<div class="body">
-<a href="../gallery/page2.html">
-<h3 class="no-anchor listing-title">
-page2
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+<div class="g-col-1" data-index="1" data-categories="aeroport" data-listing-date-sort="1612468800000" data-listing-file-modified-sort="1654843162174" data-listing-reading-time-sort="0.19">
+<a href="../gallery/page2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../gallery/cover/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Modèle de coraux 2
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('aeroport'); return false;">
 aeroport
 </div>
 </div>
-<a href="../gallery/page2.html">
-<div class="listing-description">
-
+<div class="card-text listing-description">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt nisi sapien, id ornare ligula fringilla at. In eget lacus eros. In quis laoreet magna. Duis…
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="../gallery/page2.html">
-<div class="listing-date">
-Feb 5, 2021
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Marie
 </div>
+<div class="listing-date">
+Feb 5, 2021
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1654845831725">
+<a href="../gallery/cover" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="cover/test.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1654757535789">
+<a href="../gallery/cover/cover.jpg" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="cover/test.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1654844630558">
+<a href="../gallery/cover/test.png" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="cover/test.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">
@@ -459,7 +487,37 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Copyright 2022, Moreau Matéo</div>
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../index.html">Join us on</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/ird_fr">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://icons.getbootstrap.com/">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.facebook.com/IRD.fr/">
+      <i class="bi bi-facebook" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://fr.linkedin.com/company/ird_2">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+      </div>
   </div>
 </footer>
 

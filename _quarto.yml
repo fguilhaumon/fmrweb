@@ -1,44 +1,57 @@
 project:
   type: website
-
+  preview: 
+    browser: true
 website:
-  background:
-  sidebar:
-      tools:
-       
-        - icon: github
-          menu:
-            - text: Source Code
-              url:  https://code.com
-            - text: Report a Bug
-              url:  https://bugs.com
-  title: "site"
-  
-  page-footer: "Copyright 2022, Moreau Matéo" 
+  title: "FMRWEB"
+ 
+ 
+    
+ #  sidebar:
+   #   tools:
+    #    - icon: github
+     #     menu:
+      #      - text: Source Code
+       #       url:  https://code.com
+        #    - text: Report a Bug
+         #     url:  https://bugs.com
+ 
+  page-footer: 
+    border: true
+    center: 
+      - text: "Join us on"
+        href: index.qmd
+      - icon: twitter
+        href: https://twitter.com/ird_fr
+      - icon: instagram
+        href: https://icons.getbootstrap.com/
+      - icon:  facebook
+        href: https://www.facebook.com/IRD.fr/
+      - icon:  linkedin
+        href: https://fr.linkedin.com/company/ird_2
+      
   search:
     location: navbar
     type: textbox
-  navbar:
-    search : true
-    background: primary
-    logo: image/coraux.jpg
-    href: index.qmd
     
+  navbar:
+    pinned: true
+    search : true
+    background: rgb(65, 193, 240, 1)
+    logo: image/Logo.svg
+    href: index.qmd
     left:
-      
       - icon: apple
         href: https://en.ird.fr/node/10866
       - icon: archive
         href: https://quarto.org/docs/websites/
-          
       - href: index.qmd
         text: Home
-      
-      - href: about.qmd
-      
+        
       - href: gallery/listingpage.qmd
         text: Listingpage
-
+      - href: about.qmd
+    
 format:
   html:
     code-fold: true
