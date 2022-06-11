@@ -1,6 +1,11 @@
 {
   "listingMap": {
     "gallery/listingpage.qmd": [
+      "*",
+      "-gallery/*.qmd",
+      "-gallery/.qmd"
+    ],
+    "gallery/liste/listingpage.qmd": [
       "*"
     ]
   }

@@ -5,5 +5,12 @@
       "/gallery/page.html",
       "/gallery/page2.html"
     ]
+  },
+  {
+    "listing": "/gallery/liste/listingpage.html",
+    "items": [
+      "/gallery/liste/page.html",
+      "/gallery/liste/page2.html"
+    ]
   }
 ]

@@ -1,7 +1,10 @@
 ---
-title : "page2"
+title : "Modèle de coraux 2"
+subtitle: "Modèle de coraux 3D"
+image: cover/cover.jpg
 author : "Marie"
 date : 02/05/2021
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt nisi sapien, id ornare ligula fringilla at. In eget lacus eros. In quis laoreet magna. Duis suscipit mollis porta. In hac habitasse platea dictumst. Morbi in tempor orci. Fusce augue purus, gravida et felis quis, tincidunt finibus erat."
 categories: "aeroport"
 ---
 

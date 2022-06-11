@@ -1,10 +1,14 @@
 ---
 title: "Listing Example"
+subtitle: "Liste"
 listing:
+  image-placeholder: cover/test.png
   categories: true
-  type: default
+  type: grid
+  grid-item-border: true
   sort-ui: true
   filter-ui: true
+  max-items: 9
   #template: gallery.qmd
   #contents:
   #  - gallery.yml
